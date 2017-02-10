@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.flatten(${1:arr}${2:, [true-shallow-singleLevel]})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-arr-flatten()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.flattens nested array</description>
+  <scope>source.js</scope>
+</snippet>

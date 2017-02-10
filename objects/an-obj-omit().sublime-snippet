@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.omit(${1:object}, ${2:keysToOmit});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-obj-omit()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.ret obj omit blacklisted keys</description>
+  <scope>source.js</scope>
+</snippet>

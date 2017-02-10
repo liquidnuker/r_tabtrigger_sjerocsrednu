@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.object(${1:array, [values]})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-arr-object()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.convert array to objects</description>
+  <scope>source.js</scope>
+</snippet>

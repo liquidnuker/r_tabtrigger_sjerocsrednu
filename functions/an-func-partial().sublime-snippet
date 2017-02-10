@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+${3:// var subtract = function (a, b) {
+//  return b - a;
+// }}
+
+${1:partial} = _.partial(${2:subtract, 5});
+// console.log(sub5(20)); // 15
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-func-partial()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.partial apply function</description>
+  <scope>source.js</scope>
+</snippet>

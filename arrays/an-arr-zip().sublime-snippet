@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.zip(${1:arrays})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-arr-zip()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.merge val each array</description>
+  <scope>source.js</scope>
+</snippet>

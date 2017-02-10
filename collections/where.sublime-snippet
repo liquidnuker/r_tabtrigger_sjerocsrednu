@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.where(${1:objName}, {${2:key1}: "${3:val1}"${4:, year: 1611}});  
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-collect-where</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.ret all that contain key-val pairs</description>
+  <scope>source.js</scope>
+</snippet>

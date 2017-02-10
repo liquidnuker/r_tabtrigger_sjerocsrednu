@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.sortedIndex(${1:obj1}, {${2:name: 'larry', age: 50}}, "${3:age}");
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-arr-sortedIndex()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.which index val to insert</description>
+  <scope>source.js</scope>
+</snippet>

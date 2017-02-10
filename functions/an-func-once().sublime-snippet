@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+var ${1:initialize2} = _.once(${2:loadItems.all});
+${3:${1:initialize2}();
+${1:initialize2}();
+${1:initialize2}();}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-func-once()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.fn() called one time</description>
+  <scope>source.js</scope>
+</snippet>

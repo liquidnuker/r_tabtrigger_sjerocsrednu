@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+_.map(${1:obj}, _.iteratee("${2:key}"));
+${3:// methods through _.iteratee:
+// countBy every filter find groupBy  
+// indexBy max min partition reject
+// some sortBy sortedIndex unique map}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-util-map(obj)</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.map(obj, _.iteratee('key')) // [key1, key2...]</description>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+_.mixin({
+    ${1:fName}: function (${2:string_param}) {
+      return ${2:string_param}.charAt(0).toUpperCase() + ${2:string_param}.substring(1).toLowerCase();
+    }
+  });
+
+${3:var x = _("stringName").${1:fName}();}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-util-mixin()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.extend _own utility functions</description>
+  <scope>source.js</scope>
+</snippet>

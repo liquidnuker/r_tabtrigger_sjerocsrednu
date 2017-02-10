@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+_.each(${1:arrName}, function (${2:list}) {
+  ${2:list}.id + ${2:list}.thumb
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-collect-each</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.each(arr, fn(){...)</description>
+  <scope>source.js</scope>
+</snippet>

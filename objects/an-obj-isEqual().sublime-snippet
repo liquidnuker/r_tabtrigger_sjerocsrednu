@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.isEqual(${1:obj1}, ${2:obj2});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-obj-isEqual()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.deep compare if equal</description>
+  <scope>source.js</scope>
+</snippet>

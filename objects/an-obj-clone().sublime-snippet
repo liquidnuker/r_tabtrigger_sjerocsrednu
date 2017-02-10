@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.clone(${1:obj})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-obj-clone()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.shallow clone of obj</description>
+  <scope>source.js</scope>
+</snippet>

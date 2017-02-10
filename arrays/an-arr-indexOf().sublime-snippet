@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.indexOf(${1:arr}, ${2:value-2}${3:, [true-isSorted-faster]});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-arr-indexOf()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.ret index val can be found in array</description>
+  <scope>source.js</scope>
+</snippet>

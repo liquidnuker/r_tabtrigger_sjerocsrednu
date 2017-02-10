@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.extendOwn(${1:objDest}, ${2:objSources});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-obj-extendOwn()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.copies own prop objDest. alias:assign</description>
+  <scope>source.js</scope>
+</snippet>

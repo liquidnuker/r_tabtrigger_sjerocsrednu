@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+${1:var uniqueId = }_.uniqueId("${2:contact_}"); ${3:// 'contact_104'}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-util-uniqueId()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.gen globally-unique id "contact_104"</description>
+  <scope>source.js</scope>
+</snippet>

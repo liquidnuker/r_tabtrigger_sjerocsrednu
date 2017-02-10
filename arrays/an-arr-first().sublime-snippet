@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.first(${1:[5, 4, 3, 2, 1]}${2:, [1-optional]});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-arr-first()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.ret first el array</description>
+  <scope>source.js</scope>
+</snippet>

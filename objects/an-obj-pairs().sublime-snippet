@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.pairs(${1:{key1: val1, key2: val2, key3: val3}}); ${2:// [["key1", val1], ["key2", val2], ["key3", val3]]}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-obj-pairs()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.convert obj to [key, value] pairs.</description>
+  <scope>source.js</scope>
+</snippet>

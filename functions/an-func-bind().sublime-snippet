@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+var ${1:fnLiteral} = function(${2:param1}, ${3:key}) { 
+  return ${2:param1} + this.${3:key};
+};
+
+func2 = _.bind(${1:fnLiteral}, {${3:key}: "val"}, "${4:string}");
+${5:// console.log(func2());}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-func-bind()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.bind fn() to an obj</description>
+  <scope>source.js</scope>
+</snippet>

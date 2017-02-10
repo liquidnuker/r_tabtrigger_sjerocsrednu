@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+function ${1:fname}() {
+    // console.log("${1:fname}");
+  }  
+var ${1:fname} = _.before(3, ${1:fname});
+${2:fname();
+fname();
+fname();
+fname();
+fname();}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-func-before()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.fn call no more than x times</description>
+  <scope>source.js</scope>
+</snippet>

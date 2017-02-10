@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.escape(${1:string&=&amp});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-util-escape(&=&amp)</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.ret escape &=&amp</description>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+var ${1:buttonEventGenerator} = {
+  label: 'underscore',
+  onClick: function () {
+    console.log('clicked: ' + this.label);
+  },
+  onHover: function () {
+  console.log('hovering: ' + this.label);
+  }
+};
+
+_.bindAll(${1:buttonEventGenerator}, 'onClick', 'onHover');
+ document.getElementById("test").onclick = ${1:buttonEventGenerator}.onHover;
+  
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-func-bindAll()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.binds methods on obj by methodNames</description>
+  <scope>source.js</scope>
+</snippet>

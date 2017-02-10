@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.isFunction(${1:alertObjFunction()});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-obj-isFunction()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.ret true if obj is function</description>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.values(${1:obj});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-obj-values()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.ret val of object's keys</description>
+  <scope>source.js</scope>
+</snippet>

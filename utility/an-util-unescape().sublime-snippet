@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.unescape("${1:str1 &amp; str2}");
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-util-unescape(&amp=&)</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.ret unescaped &amp=&...</description>
+  <scope>source.js</scope>
+</snippet>

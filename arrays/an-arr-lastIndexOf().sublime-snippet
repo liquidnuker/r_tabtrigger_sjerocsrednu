@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.lastIndexOf(${1:array}, ${2:value}${3:, [4-fromIndex-optional]})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-arr-lastIndexOf()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.ret index last occurrence in array</description>
+  <scope>source.js</scope>
+</snippet>

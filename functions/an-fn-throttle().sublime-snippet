@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+var ${1:throttled} = _.throttle(${2:fName}, ${3:wait-3000}${4:,[leading: false,trailing: false]});
+${5:${1:throttled}();
+${1:throttled}();
+${1:throttled}();
+${1:throttled}();}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-fn-throttle()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.rate-limit events</description>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+_.defer(function () {
+  ${1:loadItems.all();}
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-func-defer()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.defer invoke until callstack clear</description>
+  <scope>source.js</scope>
+</snippet>

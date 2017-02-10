@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+var ${1:finder} = _.find(${2:arr1}, function(${3:finder_num}){ 
+  return ${3:finder_num} ${4:=== 6};
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-collect-find</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.ret first value found</description>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.findIndex(${1:[4, 6, 7, 12], isPrime}); ${2:// 2}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-arr-findIndex()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.ret 1st index predicate passes</description>
+  <scope>source.js</scope>
+</snippet>

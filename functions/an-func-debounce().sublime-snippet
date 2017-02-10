@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+var ${1:lazyLayout} = _.debounce(${2:fName}, ${3:wait-300});
+${4:// jq(window).resize(${1:lazyLayout});}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-func-debounce()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.postpone exec after wait ms</description>
+  <scope>source.js</scope>
+</snippet>

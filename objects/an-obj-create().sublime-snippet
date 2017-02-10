@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.create(${1:objName.prototype}, {${2:name: "name1"}});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-obj-create(obj.prototype)</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.new object with prototype</description>
+  <scope>source.js</scope>
+</snippet>

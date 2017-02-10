@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.contains(${1:[obj/array]}, ${2:valToFind}); ${3:// true}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-collect-contains</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.ret true if val is present in list</description>
+  <scope>source.js</scope>
+</snippet>

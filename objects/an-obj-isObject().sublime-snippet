@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.isObject(${1:val});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-obj-isObject()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.ret true if val is obj</description>
+  <scope>source.js</scope>
+</snippet>

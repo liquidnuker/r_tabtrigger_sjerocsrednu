@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+function propertyOf(${1:key}) {
+    return ${1:key} === _.propertyOf(${2:objName})("${1:key}");
+  }
+${3:// console.log(propertyOf("var"));}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-obj-propertyOf()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.propertyOf(obj)('key');</description>
+  <scope>source.js</scope>
+</snippet>

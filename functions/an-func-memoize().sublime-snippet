@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+_.memoize(${1:loadItems.all()});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-func-memoize()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.speed up slow-running computa...</description>
+  <scope>source.js</scope>
+</snippet>

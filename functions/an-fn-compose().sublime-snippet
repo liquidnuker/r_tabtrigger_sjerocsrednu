@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+var ${1:composed} = _.compose(${2:fn1, fn2});
+  // console.log(${1:composed}("${3:name}"));
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>an-func-compose()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>_.composition of fn|f() g() h() ret f(g(h()))</description>
+  <scope>source.js</scope>
+</snippet>
